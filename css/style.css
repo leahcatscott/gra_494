@@ -137,6 +137,20 @@ p.copyright {
 	text-wrap: nowrap;
 }
 
+/***********************
+		NEW ATOMS
+***********************/
+
+/*Atom 8*/
+
+.hero_text-large {
+	font-weight:700;
+	font-size:64px;
+	letter-spacing: 0px;
+	line-height: 60px;
+    color:black;
+}
+
 /*Molecule 1*/
 
 .item_card {
