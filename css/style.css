@@ -7,13 +7,13 @@ body {
 	padding: 0;
 	height: auto;
 	line-height: 1.5;
-	letter-spacing: 0.05em;
+	letter-spacing: 0;
 	font-size: 16px;
 	background-color: #fbfbfa;
 	color: #000000;
 }
 h1,h2,h3,p,ol,ul,li,a {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 h1,h2,h3 {
 	font-family: 'Poppins', sans-serif;
@@ -24,7 +24,7 @@ h2 {
 }
 a {
 	font-weight: bold;
-	color: #d05a00;
+	color: #999999;
 	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 a:hover {
@@ -87,7 +87,6 @@ p.copyright {
 	font-size:48px;
 	letter-spacing: 0px;
 	line-height: 48px;
-	margin-botto
 }
 
 /*Atom 3*/
@@ -108,7 +107,27 @@ p.copyright {
 
 /*Atom 5, 6, 7*/
 
-.navItem-text h3, a {
+.navItem-text a {
+	font-family:Helvetica, sans-serif;
+	color:black;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing:0px;
+	font-size: 16px;
+	text-wrap: nowrap;
+}
+
+.navItem_icon a {
+	font-family:Helvetica, sans-serif;
+	color:black;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing:0px;
+	font-size: 16px;
+	text-wrap: nowrap;
+}
+
+.navItem_text-icon a {
 	font-family:Helvetica, sans-serif;
 	color:black;
 	font-weight: 500;
@@ -167,7 +186,7 @@ p.copyright {
 /*Organism 2*/
 
 .dropdown_qna {
-	margin-bottom:3rem;
+	margin:3rem 0;
 }
 
 /*Organism 3*/
@@ -175,7 +194,7 @@ p.copyright {
 .navBar_full {
 	display:flex;
 	justify-content: space-between;
-	gap:10rem;
+	gap:rem;
 }
 
 /*Style Guide Containers*/
