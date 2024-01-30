@@ -194,7 +194,7 @@ p.copyright {
 .navBar_full {
 	display:flex;
 	justify-content: space-between;
-	gap:rem;
+	gap:6rem;
 }
 
 /*Style Guide Containers*/
@@ -202,5 +202,5 @@ p.copyright {
 	background-color: #fff2d0;
 	padding:2rem;
 	margin:3rem 0;
-	
+	border:1px solid black;
 }
