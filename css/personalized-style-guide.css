@@ -168,6 +168,21 @@ p.copyright {
 	object-fit: cover;
 }
 
+.video_landscape {
+	width:100%;
+}
+
+.image_landscape-background {
+	height:500px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-image: url(/img/Pages_Landscape.jpg);
+}
+
 /*Molecule 1*/
 
 .item_card {
@@ -216,18 +231,31 @@ p.copyright {
 	justify-content: center;
 	align-items: center;
 	
+	
 }
 
 .hero_title .hero_text-large {
 	position:absolute;
 	width:500px;
 	padding-right:5rem;		/*FIGURE THIS OUT so it doesnt look weird on resize*/
-	
+	z-index:1;
 }
 
 .hero_title .image_portrait {
 	padding-left:10rem;
+	opacity:.7;
 }
+
+.cta_dialog {
+	background-color:inherit;
+	border:dotted 4px #ea9a91;
+	border-radius: 40px;
+	padding:1rem 1rem 2rem 1rem;
+	justify-content: center;
+	text-align: center;
+}
+
+
 
 /*Organism 1*/
 
@@ -252,7 +280,22 @@ p.copyright {
 	gap:6rem;
 }
 
-/*Style Guide Containers*/
+/***********************
+	NEW ORGANISMS
+***********************/
+.layout_column-2 {
+	display:flex;
+	gap:2rem;
+}
+
+.layout_column-4 {
+	display:flex;
+	gap:1rem;
+}
+
+/***********************
+	STYLE GUIDE CONTAINERS
+***********************/
 .styleguide_container {
 	background-color: #0c311b;
 	padding:2rem;
