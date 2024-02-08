@@ -202,8 +202,14 @@ p.copyright {
 
 .navBar_left {
 	display:flex;
-	gap:1.5rem;
 	align-items: center;
+}
+
+.navBar_left .navItem-text {
+	display:flex;
+	flex:1;
+	justify-content: center;
+	padding-left:.5rem;
 }
 
 /*Molecule 4*/
@@ -253,6 +259,37 @@ p.copyright {
 	padding:1rem 1rem 2rem 1rem;
 	justify-content: center;
 	text-align: center;
+}
+
+.site_footer {
+	display:flex;
+	gap:1rem;
+}
+
+.site_footer .secondary_heading {
+	justify-content: center;
+	flex:1;
+	display:flex;
+}
+
+.site_footer .navItem_text-icon {
+	justify-content: center;
+	flex:1;
+	display:flex;
+}
+
+.site_footer .navItem_text {
+	justify-content: center;
+	flex:1;
+	display:flex;
+}
+
+.site_footer:first-child > span { 
+	margin-right: auto; 
+}
+
+.site_footer:last-child  > span { 
+	margin-left: auto;  
 }
 
 
