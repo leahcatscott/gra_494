@@ -73,7 +73,6 @@ p.copyright {
 /*Atom 1*/
 .Button {
 	background-color: #6A2E35;
-	border: 4px dotted #ea9a91;
 	border-radius: 50px;
 	padding:1rem 4rem;
 	font-weight:700;
@@ -194,7 +193,7 @@ p.copyright {
 .dropdown {
 	display:flex;
 	justify-content: space-between;
-	border-bottom: 4px dotted #ea9a91;
+	border-bottom: solid 5px #1d5333;;
 	padding-top:1rem;
 }
 
@@ -253,8 +252,8 @@ p.copyright {
 }
 
 .cta_dialog {
-	background-color:inherit;
-	border:dotted 4px #ea9a91;
+	background-color:#0c311b;
+	border:solid 5px #1d5333;
 	border-radius: 40px;
 	padding:1rem 1rem 2rem 1rem;
 	justify-content: center;
@@ -266,8 +265,13 @@ p.copyright {
 	gap:1rem;
 }
 
+footer {
+	background-color: #0c311b;
+	padding:1rem;
+}
+
 .site_footer .secondary_heading {
-	justify-content: center;
+	justify-content: left;
 	flex:1;
 	display:flex;
 }
@@ -315,6 +319,8 @@ p.copyright {
 	display:flex;
 	justify-content: space-between;
 	gap:6rem;
+	background-color: #0c311b;
+	padding:1rem;
 }
 
 /***********************
