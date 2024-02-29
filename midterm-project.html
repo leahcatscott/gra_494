@@ -11,6 +11,8 @@
     <script src="https://kit.fontawesome.com/ef06817b49.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
 
 </head>
@@ -33,6 +35,7 @@
 
             <div class="navBar_right">
 
+                <i class="fa-solid fa-bars hamburger"></i>
                 <h3 class="navItem_text-icon"><a href><i class="fa-regular fa-newspaper"></i> Sign in</a></h3>
                 <button class="Button">Learn more</button>
 
@@ -123,16 +126,30 @@
 
         <section class="layout_column-2">
             <div class="cta_home">
-            <h1 class="section_heading">see for yourself</h1>
-            <p class="item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco
-                laboris.</p>
+                <h1 class="section_heading">see for yourself</h1>
+                <p class="item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                    laboris.</p>
             </div>
-            <video class="image_landscape video_landscape" src="/video/Library2_Landscape.mp4"></video>
+
+            <!-- Original Video Tag
+                <video class="image_landscape video_landscape" src="/video/Library2_Landscape.mp4"></video>
+            -->
+
+            <a data-fancybox="gallery" href="/video/Library2_Landscape.mp4">
+                <img class="video_landscape" src="/img/Library2_Thumbnail.png"></a>
+            <script>
+                Fancybox.bind('[data-fancybox="gallery"]', {
+                    //
+                });    
+            </script>
         </section>
+
+
     </section>
+
 
     <footer class="site_footer">
         <h1 class="secondary_heading">
@@ -142,6 +159,7 @@
         <p class="navItem-text"><span>GRA 494</span></p>
         <p class="navItem-text"></span>Benjamin Conrad</span></p>
     </footer>
+
 
 </body>
 
